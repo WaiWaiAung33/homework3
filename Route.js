@@ -20,6 +20,8 @@ const RouteConfigs = {
       color: "#FF0080",
       textAlign: "center",
       width: "100%",
+      fontFamily:"Dosis-Light",
+     fontWeight:"300"
       
     },
     })
@@ -32,7 +34,9 @@ const RouteConfigs = {
       headerTitleStyle: {
         color: "white",
         textAlign: "center",
-        width: "80%"
+        width: "80%",
+        fontFamily:"Dosis-Light",
+        fontWeight:"300"
       },
       headerTintColor: "white"
     })
@@ -45,7 +49,9 @@ const RouteConfigs = {
         headerTitleStyle: {
           color: "white",
           textAlign: "center",
-          width: "80%"
+          width: "80%",
+          fontFamily:"Dosis-Light",
+          fontWeight:"300"
         },
         headerTintColor: "white"
       })
@@ -59,7 +65,9 @@ const RouteConfigs = {
       headerTitleStyle: {
         color: "white",
         textAlign: "center",
-        width: "80%"
+        width: "80%",
+        fontFamily:"Dosis-Light",
+        fontWeight:"300"
       },
       headerTintColor: "white"
     })
@@ -73,7 +81,9 @@ Screen5:{
     headerTitleStyle: {
       color:"#B9592D",
       textAlign: "center",
-      width: "80%"
+      width: "80%",
+      fontFamily:"Dosis-Light",
+      fontWeight:"300"
     },
     headerTintColor: "white"
   })
@@ -87,7 +97,9 @@ Screen6:{
     headerTitleStyle: {
       color: "white",
       textAlign: "center",
-      width: "80%"
+      width: "80%",
+      fontFamily:"Dosis-Light",
+      fontWeight:"300"
     },
     headerTintColor: "white"
   })

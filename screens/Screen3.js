@@ -8,11 +8,17 @@ import {
   ScrollView
 } from "react-native";
 export default class Screen3 extends React.Component {
+  
   render() {
     return (
       <View style={styles.container}>
         <ScrollView showsVerticalScrollIndicator={false}>
+        <TouchableOpacity
+                style={styles.linkBtn}
+                onPress={() => this.props.navigation.navigate("Screen4")}
+              >
           <View style={styles.first}>
+          
             <View>
               <Image
                 style={styles.image}
@@ -20,15 +26,15 @@ export default class Screen3 extends React.Component {
               />
             </View>
             <View>
-              <TouchableOpacity
-                style={styles.linkBtn}
-                onPress={() => this.props.navigation.navigate("Screen4")}
-              >
+             
                 <Text style={styles.text}>Marvel Legends</Text>
-              </TouchableOpacity>
+             
             </View>
+            
           </View>
+          </TouchableOpacity>
 
+           
           <View style={styles.first}>
             <View >
               <Image style={styles.image} source={require("../assets/starwars.jpg")} />
@@ -80,20 +86,22 @@ export default class Screen3 extends React.Component {
               </TouchableOpacity>
             </View>
           </View> 
+          <TouchableOpacity
+                style={styles.linkBtn}
+                onPress={() => this.props.navigation.navigate("Screen6")}
+              >
 
           <View style={styles.first}>
             <View >
               <Image style={styles.image} source={require("../assets/ponyprincess.jpg")} />
             </View>
             <View>
-              <TouchableOpacity
-                style={styles.linkBtn}
-                onPress={() => this.props.navigation.navigate("Screen6")}
-              >
+              
                 <Text style={styles.text}>Pony Princess</Text>
-              </TouchableOpacity>
+             
             </View>
           </View>
+          </TouchableOpacity>
 
           <View style={styles.first}>
             <View >
@@ -147,7 +155,8 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 15,
     color: "#2471A3",
-    marginHorizontal: 10
+    marginHorizontal: 10,
+    fontFamily:"Dosis-Light"
   },
   image: {
     width: 100,

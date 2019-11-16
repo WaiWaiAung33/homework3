@@ -3,6 +3,7 @@ import { StyleSheet, View, Dimensions } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 
 export default class Screen5 extends React.Component {
+  
   constructor(props) {
     super(props);
     this.state = {

@@ -19,6 +19,7 @@ export default class Screen1 extends React.Component {
   async componentDidMount() {
     await Font.loadAsync({
       "Pyidaungsu":require("../assets/font/Pyidaungsu.ttf"),
+      "Dosis-Light":require("../assets/font/Dosis-Light.otf")
 
     });
 
@@ -76,8 +77,8 @@ const styles = StyleSheet.create({
   },
   image: {
     marginLeft: 250,
-    width:50,
-    height:30,
+    width:5,
+    height:5,
     padding:30,
     
     
@@ -92,6 +93,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     // color: "#FF1694",
     margin: 6,
-    marginHorizontal: 30
+    marginHorizontal: 30,
+    fontFamily:"Dosis-Light",
   }
 });
